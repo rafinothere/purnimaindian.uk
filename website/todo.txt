@@ -1,0 +1,71 @@
+<header>
+Purnima logo ---------- 3Navigation bar --- 3Roll over icons -- Contact
+<header2>
+paralex background image 
+Number
+Times open
+<body>
+2 buttons --------- Image
+<footer>
+title Purnima Indian Cuisine
+middle information ------ 3 rollover images
+
+flex animation style
+
+
+
+--------------------
+    <test>
+        <h1>This is an h1 heading</h1>
+        <h2>This is an h2 heading</h2>
+        <h3>This is an h3 heading</h3>
+        <h5>This is an h5 heading</h5>
+        <hr>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos soluta quia, dolor voluptates aperiam in maxime numquam ipsa voluptatum, aspernatur laudantium sapiente similique voluptas cum veritatis ipsum fuga sed.
+        <br>
+        <hr>
+        </p>
+        <a href="https://www.youtube.com/watch?v=HGTJBPNC-Gw"
+            target="_blank"
+            title="Goes to yt">
+            click me
+        </a>
+        <img scr="h.jpg"
+        alt="This is a picture of a bottle"
+        >
+
+    </test>
+    ----------------
+      .main-container {
+    /* Styles specific to the main container */
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #8d1111; /* Change background color */
+    border: 2px solid #000; /* Change border properties */
+    /* Add any other styles you want to apply to the main container */
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+  }
+  ------------------------
+  header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  order: 2;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0 10px;
+}
